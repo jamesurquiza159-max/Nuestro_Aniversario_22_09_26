@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#160d2d">
+  <meta name="description" content="Nuestra historia, guardada en un rincón de internet.">
+  <title>Nuestra historia · para siempre</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="loader" id="loader" aria-label="Cargando nuestra historia">
+    <div class="loader__stars"></div><span class="loader__heart">♡</span><span class="loader__heart loader__heart--two">♥</span>
+    <div class="loader__copy"><p class="eyebrow">UN PEQUEÑO UNIVERSO PARA DOS</p><h1>Cargando amor<span class="dots">...</span></h1><p>Preparando nuestra pequeña historia 💜</p></div>
+    <div class="chase" aria-hidden="true"><div class="bunny bunny--loader"><i></i><b></b><em></em></div><div class="kuromi kuromi--loader"><i></i><b></b><em></em></div></div>
+    <div class="progress"><span id="progressBar"></span></div><div class="progress__number"><strong id="progressNumber">0</strong>%</div>
+  </div>
+
+  <main id="mainContent" class="is-hidden">
+    <section class="hero section-bg" data-bg="assets/5.jpeg" id="inicio">
+      <div class="grain"></div><div class="moon"></div><div class="hero__stars"></div><div class="floating-hearts" aria-hidden="true"></div>
+      <div class="hero__characters"><div class="bunny bunny--hero"><i></i><b></b><em></em></div><div class="kuromi kuromi--hero"><i></i><b></b><em></em></div></div>
+      <div class="hero__content reveal"><p class="eyebrow">NUESTRA HISTORIA · CAPÍTULO ∞</p><h1>Para la persona que<br><span>hace bonita mi vida</span> ♡</h1><p class="hero__lead">Gracias por existir, por acompañarme,<br>por hacerme feliz y por ser tú.</p><a class="button button--primary" href="#recuerdos">♥ Nuestra historia <span>↓</span></a></div>
+      <div class="scroll-hint"><span></span>desliza para descubrir</div>
+    </section>
+
+    <section class="memories section-bg" data-bg="assets/3.jpeg" id="recuerdos">
+      <div class="section-shell"><div class="section-heading reveal"><p class="eyebrow">01 · ARCHIVO DE MOMENTOS</p><h2>Cuando estamos<br><span>bien Perras</span> 🐾</h2><p>Recuerdos de nuestras aventuras, risas y locuras...</p></div>
+        <div class="carousel reveal" aria-label="Carrusel de fotografías">
+          <button class="carousel__arrow carousel__arrow--prev" type="button" aria-label="Foto anterior">←</button><div class="polaroid-wrap"><div class="polaroid" id="polaroid"><img id="memoryImage" src="assets/1.jpeg" alt="Una foto de nuestra historia"><div class="polaroid__caption"><strong id="memoryTitle">Donde todo se siente más bonito</strong><span id="memoryCount">01 / 06</span></div></div></div><button class="carousel__arrow carousel__arrow--next" type="button" aria-label="Siguiente foto">→</button>
+          <div class="carousel__dots" id="carouselDots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="peace section-bg" data-bg="assets/6.jpeg" id="paz"><div class="orb orb--one"></div><div class="orb orb--two"></div><div class="section-shell peace__layout"><div class="peace__art reveal"><div class="bunny bunny--peace"><i></i><b></b><em></em></div><span class="art-sparkle">✦</span><span class="art-heart">♥</span></div><div class="peace__copy reveal"><p class="eyebrow">02 · NUESTRO LUGAR SEGURO</p><h2>Momentos que<br><span>me dan paz</span> ♡</h2><p class="quote">Contigo todo se siente diferente...</p><p>Me das tranquilidad, me haces reír y llenas mis días de alegría.</p><p>Gracias por existir ♡</p><div class="signature">con amor, siempre <span>✦</span></div></div></div></section>
+
+    <section class="counter section-bg" data-bg="assets/4.jpeg"><div class="section-shell counter__inner reveal"><p class="eyebrow">03 · EL TIEMPO A TU LADO</p><h2>Todo este tiempo,<br><span>y te elegiría otra vez.</span></h2><p class="counter__note">Juntos desde la fecha que tú elijas</p><div class="timer" id="timer"><div><strong>0</strong><span>días</span></div><i>:</i><div><strong>00</strong><span>horas</span></div><i>:</i><div><strong>00</strong><span>minutos</span></div><i>:</i><div><strong>00</strong><span>segundos</span></div></div><p class="config-note">Mi Flaquita Hermosaaaaa Te Amoooooo</code></p></div></section>
+
+    <section class="letter section-bg" data-bg="assets/2.jpeg" id="carta"><div class="section-shell letter__layout"><div class="letter__intro reveal"><p class="eyebrow">04 · PARA LEER DESPACITO</p><h2>Una carta<br><span>para ti</span> ♡</h2><div class="letter__line"></div><p>Hay cosas que merecen decirse<br>más de una vez.</p></div><article class="letter-card reveal"><div class="letter-card__top">PARA MI PERSONA FAVORITA <span>♡</span></div><div class="letter-card__body"><p>Eres mi persona favorita,<br>mi lugar seguro, mi alegría,<br>mi calma y mi todo.</p><p>Gracias por estar, por quererme<br>y por hacerme sentir tan especial.</p><p class="letter-card__sign">Te amo hoy, mañana<br>y siempre ♡</p></div><div class="letter-card__stamp">♡</div></article></div></section>
+
+    <section class="gifts section-bg" data-bg="assets/1.jpeg" id="regalos"><div class="section-shell"><div class="section-heading section-heading--center reveal"><p class="eyebrow">05 · LO QUE AÚN FALTA POR DESCUBRIR</p><h2>Nuestros <span>regalos</span></h2><p>Pequeños portales para seguir guardando lo nuestro.</p></div><div class="gift-grid"><button class="gift-card reveal" type="button" data-message="Aquí podremos guardar nuestros videos favoritos."><span class="gift-card__icon">▶</span><span class="gift-card__label">Videos</span><small>momentos en movimiento</small><b>abrir portal ↗</b></button><button class="gift-card reveal" type="button" data-message="Aquí podremos sumar nuevas fotos a nuestra historia."><span class="gift-card__icon">▧</span><span class="gift-card__label">Fotos</span><small>más capítulos por revelar</small><b>abrir portal ↗</b></button><button class="gift-card reveal" type="button" data-message="Aquí vivirá la playlist que suena a nosotros."><span class="gift-card__icon">♫</span><span class="gift-card__label">Playlist</span><small>la banda sonora de los dos</small><b>abrir portal ↗</b></button></div></div></section>
+
+    <footer><div class="footer__mark">A <span>♡</span> J</div><p>Hecho con amor, para nuestra historia.</p><button id="topButton" class="top-button" type="button" aria-label="Volver al inicio">↑</button></footer>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="js/script.js"></script>
+</body>
+</html>
